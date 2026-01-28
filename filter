@@ -1,0 +1,17 @@
+! Title: учи.ру (uchi.ru)
+! Author: Je0121
+! Expires: 5 days
+
+! Domains (Analytics)
+||uchi.ru/tetrika-promos/static/moduleTetrikaPromos.js$xhr,script
+! Domains (Ads)
+||uchi.ru/api/v3/student/banner$xhr,script
+||configurator-files.uchi.ru/0ced732272b6d75d.svg$image
+||configurator-files.uchi.ru/dfb0b91828f657e5.svg$image
+! Context
+uchi.ru##a[href="https://max.ru/uchi_quiz_bot"]
+uchi.ru##.sc-hqpNSm
+uchi.ru##[data-testid="tetrika-banner"]
+uchi.ru##.lkTetrikaBanner
+uchi.ru##[alt="Баннер Тетрики для главной страницы ЛК"]
+uchi.ru##div[data-qa-marker="uchidoma_teens_plashka"]
