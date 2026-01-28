@@ -6,10 +6,9 @@
 ||uchi.ru/tetrika-promos/static/moduleTetrikaPromos.js$xhr,script
 ! Domains (Ads)
 ||uchi.ru/api/v3/student/banner$xhr,script
-||configurator-files.uchi.ru/0ced732272b6d75d.svg$image
-||configurator-files.uchi.ru/dfb0b91828f657e5.svg$image
 ||static.uchi.ru/files/money/middle_banners/*$image
-||configurator-files.uchi.ru/assets*$image
+||configurator-files.uchi.ru$image
+/public?configs=tetrika_configuration$xhr
 ! Context
 uchi.ru##a[href="https://max.ru/uchi_quiz_bot"]
 uchi.ru##.sc-hqpNSm
