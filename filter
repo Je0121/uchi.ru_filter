@@ -2,27 +2,22 @@
 ! Author: Je0121
 ! Expires: 5 days
 
-! Domains (Analytics)
-||uchi.ru/tetrika-promos/static/moduleTetrikaPromos.js$xhr,script
-! Domains (Ads)
-||uchi.ru/api/v3/student/banner$xhr,script
-||static.uchi.ru/files/money/middle_banners/*$image
+! Domains
 ||configurator-files.uchi.ru$image
-||uchi.ru/api/configurator/public?configs=tetrika_configuration^$xhr,script,doc
-||static.uchi.ru/files/uchiru-5-11/scripts/widgets/beadsWidget@2.0.3.js^$xhr,script,doc
-||spa-assets.uchi.ru/tetrika-promos-front/*^$xhr,script,doc
+||uchi.ru/tetrika-promos/static/moduleTetrikaPromos.js$script,xhr
+||uchi.ru/api/configurator/public?configs=tetrika_configuration$all
+||evt.uchi.ru$all
+||static.uchi.ru/files/money/middle_banners/*$image
+||uchi.ru/api/v3/student/banner$xhr,script,other
 ||static.uchi.ru/files/profile/students/main-page/plates/middle_max/plate.jpg$image,xhr,script,doc
 ||static.uchi.ru/files/profile/parents/uchidoma-teens-v3.svg$image,xhr,script,doc
-||evt.uchi.ru^$xhr,script,doc,ping
+||uchi.ru/api/v1/az_tests?num_id=*&labels%5B%5D=middle_mnz_paywall_tariffs_redesign$xhr,doc
+||uchi.ru/profile/api/students/v2/banners?banner_page=*$xhr,doc,script
 ! Context
-uchi.ru##a[href="https://max.ru/uchi_quiz_bot"]
-uchi.ru##.sc-hqpNSm
-uchi.ru##div[data-testid="settings-banner-open"]
-uchi.ru##div[data-event-info="uchidoma_teens_prnt_banner"]
-uchi.ru##div[data-testid="tetrika-banner"]
-uchi.ru##.lkTetrikaBanner
-uchi.ru##div[class="banner-announcement"]
-uchi.ru##div[class="s-trial-notice"]
-uchi.ru##[alt="Баннер Тетрики для главной страницы ЛК"]
-uchi.ru##div[data-qa-marker="uchidoma_teens_plashka"]
-
+uchi.ru##.mainPageSliderWrapper___qw-ei
+uchi.ru##.sc-bZQynM
+uchi.ru##.sc-etVdmn
+uchi.ru##._modal_1n7pg_1
+uchi.ru##._trial__list_1kyin_81
+uchi.ru##.s-trial-notice
+uchi.ru##._button__button_1oaqc_9
